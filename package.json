@@ -1,0 +1,29 @@
+{
+	"name": "light-compiler",
+	"version": "1.0.0",
+	"description": "the supper light compiiler.",
+	"main": "./src/compiler.ts",
+	"typings": "./typings/index.d.ts",
+	"scripts": {
+		"test": "vitest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/NoTwoBoy/light-compiler.git"
+	},
+	"keywords": [
+		"compiler"
+	],
+	"author": "NoTwoBoy",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/NoTwoBoy/light-compiler/issues"
+	},
+	"homepage": "https://github.com/NoTwoBoy/light-compiler#readme",
+	"dependencies": {
+		"vitest": "^0.22.1"
+	},
+	"devDependencies": {
+		"vite": "^3.0.9"
+	}
+}
